@@ -304,46 +304,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding-top: calc(var(--vp-nav-height) + 2rem) !important; /* Account for navbar height + extra spacing */
-  max-width: 240px !important; /* Reduce sidebar width */
-  width: 240px !important;
-}
-
-/* Override VitePress layout padding calculation for content area */
-.VPContent {
-  padding-left: 240px !important; /* Match sidebar width */
-}
-
-.VPContent.has-sidebar {
-  padding-left: 240px !important; /* Match sidebar width */
-}
-
-/* Override VitePress's calculated padding-left rule */
-.VPContentWrapper,
-.VPLayout .content,
-.vp-doc,
-.VPContentWrapper.has-sidebar {
-  padding-left: 0 !important; /* Remove calculated padding */
-}
-
-/* Override the specific padding-left calculation rule */
-.VPContentWrapper[style*="padding-left"] {
-  padding-left: 0 !important;
-}
-
-/* Ensure content area uses fixed sidebar width */
-@media (min-width: 960px) {
-  .VPLayout.has-sidebar .VPContent {
-    padding-left: 240px !important;
-  }
-  
-  .VPLayout.has-sidebar .VPContentWrapper {
-    padding-left: 0 !important; /* Remove calculated padding */
-  }
-  
-  /* Override any inline styles or calculated values */
-  .VPLayout.has-sidebar .VPContentWrapper[style*="padding-left"] {
-    padding-left: 0 !important;
-  }
 }
 
 @media (max-width: 768px) {
@@ -878,8 +838,8 @@ a[href*="github.com"][href*="edit"] {
 /* Sidebar - Mobile (VitePress handles this, but ensure it's styled) */
 @media (max-width: 768px) {
   .VPSidebar {
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 100%;
+    max-width: 100%;
   }
   
   .VPSidebarItem {
