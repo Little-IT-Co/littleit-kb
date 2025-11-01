@@ -57,7 +57,7 @@ export default defineConfig({
     
     // Edit link (optional)
     editLink: {
-      pattern: 'https://github.com/your-org/vitepress-repo/edit/main/docs/:path',
+      pattern: 'https://github.com/littlewebco/littlecloud-docs/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
     
