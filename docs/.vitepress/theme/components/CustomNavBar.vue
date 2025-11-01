@@ -13,44 +13,47 @@
           <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
         </svg>
       </a>
-    </div>
-    <div class="nav-search-wrapper">
-      <div class="nav-search">
-        <label class="search-label" for="vp-search-input">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.35-4.35"></path>
-          </svg>
-        </label>
-        <input
-          id="vp-search-input"
-          type="search"
-          class="search-input"
-          placeholder="Search documentation..."
-          autocomplete="off"
-          @focus="handleSearchFocus"
-          @input="handleSearchInput"
-        />
-      </div>
+      <!-- Mobile search icon button - triggers native VitePress search -->
+      <button 
+        class="nav-icon nav-search-icon-mobile" 
+        title="Search" 
+        aria-label="Search"
+        @click="triggerSearch"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+      </button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onMounted } from 'vue'
 import { withBase } from 'vitepress/client'
 
-const searchValue = ref('')
-
-const handleSearchFocus = () => {
-  // Focus will trigger VitePress search if available
-  // Or we can implement custom search
-}
-
-const handleSearchInput = (event) => {
-  searchValue.value = event.target.value
-  // Implement search functionality
-  // For now, this will work with browser's native search
+const triggerSearch = () => {
+  // Trigger VitePress search by dispatching Cmd/Ctrl+K keyboard shortcut
+  // This matches how VitePress handles the search trigger
+  const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0
+  
+  // Create a proper keyboard event that VitePress will recognize
+  const event = new KeyboardEvent('keydown', {
+    key: 'k',
+    code: 'KeyK',
+    keyCode: 75,
+    which: 75,
+    ctrlKey: !isMac,
+    metaKey: isMac,
+    shiftKey: false,
+    altKey: false,
+    bubbles: true,
+    cancelable: true
+  })
+  
+  // Dispatch on window to match VitePress's listener
+  window.dispatchEvent(event)
 }
 </script>
 
@@ -59,8 +62,7 @@ const handleSearchInput = (event) => {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-left: auto;
-  background-color: transparent !important;
+  flex-shrink: 0;
 }
 
 .nav-icons {
@@ -80,6 +82,9 @@ const handleSearchInput = (event) => {
   transition: all 0.2s ease;
   text-decoration: none;
   border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 .nav-icon:hover {
@@ -96,75 +101,17 @@ const handleSearchInput = (event) => {
   transform: scale(1.1);
 }
 
-.nav-search-wrapper {
-  min-width: 280px;
-  max-width: 400px;
+.nav-search-icon-mobile {
+  display: none; /* Hidden on desktop */
 }
 
-.nav-search {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.search-label {
-  position: absolute;
-  left: 12px;
-  display: flex;
-  align-items: center;
-  color: var(--vp-c-text-3);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.search-input {
-  width: 100%;
-  padding: 10px 16px 10px 40px;
-  background-color: #0A0A0A;
-  border: 1px solid var(--vp-c-border);
-  border-radius: var(--vp-border-radius);
-  color: var(--vp-c-text);
-  font-size: 14px;
-  font-family: var(--vp-font-family-base);
-  transition: all 0.2s ease;
-  outline: none;
-}
-
-.search-input::placeholder {
-  color: var(--vp-c-text-3);
-}
-
-.search-input:hover {
-  border-color: var(--vp-c-border-hover);
-  background-color: #141414;
-}
-
-.search-input:focus {
-  border-color: var(--vp-c-brand);
-  background-color: #141414;
-  box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.1);
-}
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .nav-search-icon-mobile {
+    display: flex; /* Show on mobile */
+  }
+  
   .custom-nav-bar {
     gap: 0.5rem;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-  
-  .nav-search-wrapper {
-    min-width: 180px;
-    max-width: 220px;
-    flex: 1 1 auto;
-    order: 3;
-    width: 100%;
-    margin-top: 0.5rem;
-  }
-  
-  .nav-icons {
-    order: 1;
-    flex-shrink: 0;
   }
   
   .nav-icon {
@@ -172,73 +119,6 @@ const handleSearchInput = (event) => {
     height: 44px;
     min-width: 44px;
     min-height: 44px;
-  }
-  
-  .search-input {
-    font-size: 16px; /* Prevents zoom on iOS */
-    padding: 10px 12px 10px 36px;
-    min-height: 44px; /* Touch-friendly */
-  }
-}
-
-@media (max-width: 640px) {
-  .custom-nav-bar {
-    gap: 0.375rem;
-  }
-  
-  .nav-search-wrapper {
-    min-width: 100%;
-    max-width: 100%;
-    order: 3;
-  }
-  
-  .nav-icon {
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
-    min-height: 40px;
-  }
-  
-  .search-input {
-    font-size: 16px;
-    padding: 10px 12px 10px 36px;
-  }
-  
-  .search-input::placeholder {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 480px) {
-  .custom-nav-bar {
-    gap: 0.25rem;
-  }
-  
-  .nav-icons {
-    gap: 0.25rem;
-  }
-  
-  .nav-icon {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .nav-search-wrapper {
-    margin-top: 0.375rem;
-  }
-  
-  .search-input {
-    padding: 8px 10px 8px 32px;
-    font-size: 16px;
-  }
-  
-  .search-label {
-    left: 10px;
-  }
-  
-  .search-label svg {
-    width: 16px;
-    height: 16px;
   }
 }
 </style>

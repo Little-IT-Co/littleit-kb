@@ -8,9 +8,22 @@ Little Cloud provides cloud solutions including domain registration, web hosting
 
 ## Quick Links
 
+- [Knowledge Base](/kb/) - Comprehensive guides and documentation for all services
 - [Getting Started](/getting-started/) - Begin your journey with Little Cloud
 - [Services](https://little.cloud/services) - Explore our services
 - [Contact](https://little.cloud/contact) - Get in touch with our team
+
+## Knowledge Base
+
+Find detailed guides and documentation for:
+
+- **Google Workspace** - Email, collaboration, and productivity tools
+- **Microsoft 365** - Office suite, email, and cloud services
+- **WordPress** - Installation, plugins, and best practices
+- **Hosting Control Panels** - cPanel, CyberPanel, and Cloudmin
+- **Development Tools** - Docker, GitHub, and more
+
+[Browse Knowledge Base →](/kb/)
 
 ## What We Offer
 
@@ -28,4 +41,4 @@ Protect your data and applications with comprehensive security solutions. Enterp
 
 ---
 
-*Need help? Contact our [24/7 support team](https://little.cloud/contact)*
+*Need help? Contact our [24/7 support team](https://little.cloud/contact) or browse our [Knowledge Base](/kb/)*

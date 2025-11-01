@@ -47,6 +47,11 @@ export default defineConfig({
     siteTitle: 'Little Cloud Docs',
     logo: 'https://little.cloud/assets/img/logo.svg', // Add your logo if you have one
     
+    // Search configuration - enable local search
+    search: {
+      provider: 'local'
+    },
+    
     // Navigation - removed menu items, using custom navbar instead
     nav: [],
     
@@ -57,6 +62,7 @@ export default defineConfig({
           text: 'Introduction',
           items: [
             { text: 'Getting Started', link: '/getting-started/' },
+            { text: 'Knowledge Base', link: '/kb/' },
           ]
         }
       ],
