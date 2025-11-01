@@ -52,5 +52,36 @@ const logo = computed(() => site.value.themeConfig.logo)
   background-clip: text;
   letter-spacing: -0.02em;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .custom-nav-title {
+    gap: 0.375rem;
+  }
+  
+  .nav-logo {
+    height: 20px;
+  }
+  
+  .nav-title-little,
+  .nav-title-cloud {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-nav-title {
+    gap: 0.25rem;
+  }
+  
+  .nav-logo {
+    height: 18px;
+  }
+  
+  .nav-title-little,
+  .nav-title-cloud {
+    font-size: 1.125rem;
+  }
+}
 </style>
 

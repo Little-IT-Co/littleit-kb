@@ -149,32 +149,96 @@ const handleSearchInput = (event) => {
 @media (max-width: 768px) {
   .custom-nav-bar {
     gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
   
   .nav-search-wrapper {
-    min-width: 200px;
-    max-width: 250px;
+    min-width: 180px;
+    max-width: 220px;
+    flex: 1 1 auto;
+    order: 3;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-icons {
+    order: 1;
+    flex-shrink: 0;
   }
   
   .nav-icon {
-    width: 36px;
-    height: 36px;
+    width: 44px; /* Touch-friendly size */
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
   }
   
   .search-input {
     font-size: 16px; /* Prevents zoom on iOS */
-    padding: 8px 12px 8px 36px;
+    padding: 10px 12px 10px 36px;
+    min-height: 44px; /* Touch-friendly */
   }
 }
 
 @media (max-width: 640px) {
+  .custom-nav-bar {
+    gap: 0.375rem;
+  }
+  
   .nav-search-wrapper {
-    min-width: 150px;
-    max-width: 180px;
+    min-width: 100%;
+    max-width: 100%;
+    order: 3;
+  }
+  
+  .nav-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+  }
+  
+  .search-input {
+    font-size: 16px;
+    padding: 10px 12px 10px 36px;
   }
   
   .search-input::placeholder {
-    font-size: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-nav-bar {
+    gap: 0.25rem;
+  }
+  
+  .nav-icons {
+    gap: 0.25rem;
+  }
+  
+  .nav-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-search-wrapper {
+    margin-top: 0.375rem;
+  }
+  
+  .search-input {
+    padding: 8px 10px 8px 32px;
+    font-size: 16px;
+  }
+  
+  .search-label {
+    left: 10px;
+  }
+  
+  .search-label svg {
+    width: 16px;
+    height: 16px;
   }
 }
 </style>
