@@ -1,5 +1,5 @@
 <template>
-  <a href="/" class="custom-nav-title">
+  <a :href="withBase('/')" class="custom-nav-title">
     <img v-if="logo" :src="logo" alt="Logo" class="nav-logo" />
     <span class="nav-title-little">Little</span>
     <span class="nav-title-cloud">Cloud</span>
@@ -9,6 +9,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useData } from 'vitepress'
+import { withBase } from 'vitepress/client'
 
 const { site } = useData()
 const logo = computed(() => site.value.themeConfig.logo)
