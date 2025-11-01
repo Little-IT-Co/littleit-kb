@@ -5,6 +5,9 @@ export default defineConfig({
   title: 'Little Cloud Documentation',
   description: 'Simple, reliable and secure cloud solutions. Documentation for Little Cloud services and products.',
   
+  // Enable clean URLs (removes .html extensions)
+  cleanUrls: 'with-subfolders',
+  
   // Build output directory
   outDir: '../dist',
   
