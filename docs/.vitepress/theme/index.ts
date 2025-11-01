@@ -1,15 +1,15 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
+import CustomNavBar from './components/CustomNavBar.vue'
+import CustomNavTitle from './components/CustomNavTitle.vue'
 
 export default {
   ...Theme,
-  enhanceApp({ app }) {
-    // Register global components here if needed
-  },
   Layout() {
     return h(Theme.Layout, null, {
-      // Custom slots can be added here
+      'nav-bar-title': () => h(CustomNavTitle),
+      'nav-bar-content-after': () => h(CustomNavBar)
     })
   }
 }

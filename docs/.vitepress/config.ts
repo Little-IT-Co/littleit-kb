@@ -13,12 +13,8 @@ export default defineConfig({
     siteTitle: 'Little Cloud Docs',
     logo: 'https://little.cloud/assets/img/logo.svg', // Add your logo if you have one
     
-    // Navigation
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started/' },
-      { text: 'Knowledge Base', link: '/knowledge-base/' },
-    ],
+    // Navigation - removed menu items, using custom navbar instead
+    nav: [],
     
     // Sidebar
     sidebar: {
@@ -206,11 +202,6 @@ export default defineConfig({
         }
       ],
     },
-    
-    // Social links (optional)
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/littlewebco/' }
-    ],
     
     // Footer
     footer: {

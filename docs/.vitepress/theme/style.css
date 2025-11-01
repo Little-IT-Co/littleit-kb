@@ -7,6 +7,16 @@
 /* Import Inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
+/* Import BlackEcho font */
+@font-face {
+  font-family: 'BlackEcho';
+  src: url('./BlackEcho.woff') format('woff'),
+       url('./BlackEcho.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* Little Cloud Brand Colors - Matching website gradients */
   --vp-c-brand: hsl(197, 100%, 50%); /* Primary blue from website */
@@ -157,21 +167,52 @@ a:hover {
   background-color: var(--vp-c-bg-soft);
 }
 
-/* Navigation */
+/* Navigation - Ensure consistent black background */
 .VPNav {
-  background-color: var(--vp-c-bg);
+  background-color: #000000 !important;
   border-bottom: 1px solid var(--vp-c-border);
   backdrop-filter: blur(10px);
 }
 
-.VPNavBar .title {
-  font-weight: 800;
-  background: linear-gradient(90deg, var(--gradient-primary-start) 0%, var(--gradient-primary-middle) 50%, var(--gradient-primary-end) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  letter-spacing: -0.02em;
+.VPNavBar {
+  background-color: #000000 !important;
 }
+
+.VPNavBar .content {
+  background-color: #000000 !important;
+}
+
+.VPNavBar .container {
+  background-color: #000000 !important;
+}
+
+.VPNavBar .content-body {
+  background-color: #000000 !important;
+}
+
+/* Logo styling - remove any background */
+.VPNavBarTitle {
+  background: transparent !important;
+}
+
+/* Ensure custom nav title has transparent background */
+.custom-nav-title {
+  background: transparent !important;
+}
+
+.VPNavBarTitle .logo {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.VPNavBarTitle img {
+  background: transparent !important;
+  border: none !important;
+  display: block;
+}
+
+/* Title styling handled by CustomNavTitle component */
 
 .VPNavBarTitle .title:hover {
   opacity: 0.9;
@@ -191,6 +232,11 @@ a:hover {
 
 .VPNavBar .nav-link.active {
   color: var(--vp-c-brand);
+}
+
+/* Hide appearance toggle (light/dark mode switcher) */
+.VPNavBar .appearance {
+  display: none !important;
 }
 
 /* Sidebar */
