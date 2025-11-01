@@ -41,7 +41,7 @@ export default defineConfig({
     
     // Social links (optional)
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-org/littlecloud-www' }
+      { icon: 'github', link: 'https://github.com/littlewebco/' }
     ],
     
     // Search
