@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/docs/',
   title: 'Little Cloud Documentation',
-  description: 'Documentation for Little Cloud services and products',
+  description: 'Simple, reliable and secure cloud solutions. Documentation for Little Cloud services and products.',
   
   // Build output directory
   outDir: '../dist',
@@ -52,7 +52,7 @@ export default defineConfig({
     // Footer
     footer: {
       message: 'Made with ❤️ by Little Cloud',
-      copyright: 'Copyright © 2025 Little Cloud'
+      copyright: 'Copyright © 2025 Little Cloud OÜ'
     },
     
     // Edit link (optional)
