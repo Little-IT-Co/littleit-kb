@@ -11,7 +11,7 @@ export default defineConfig({
   // Theme configuration
   themeConfig: {
     siteTitle: 'Little Cloud Docs',
-    logo: '/logo.svg', // Add your logo if you have one
+    logo: 'https://little.cloud/assets/img/logo.svg', // Add your logo if you have one
     
     // Navigation
     nav: [
