@@ -5,10 +5,10 @@ WordPress plugins extend the functionality of your WordPress site. This section 
 ## Essential Plugins
 
 ### Recommended Plugins
-- [Google Site Kit](/knowledge-base/wordpress/plugins/google-site-kit) - Google services integration
-- [Elementor](/knowledge-base/wordpress/plugins/elementor) - Page builder
-- [Limit Login Attempts](/knowledge-base/wordpress/plugins/limit-login-attempts) - Security plugin
-- [WP Mail Options](/knowledge-base/wordpress/plugins/wp-mail-options) - Email configuration
+- [Google Site Kit](/kb/wordpress/plugins/google-site-kit) - Google services integration
+- [Elementor](/kb/wordpress/plugins/elementor) - Page builder
+- [Limit Login Attempts](/kb/wordpress/plugins/limit-login-attempts) - Security plugin
+- [WP Mail Options](/kb/wordpress/plugins/wp-mail-options) - Email configuration
 
 ## Installing Plugins
 

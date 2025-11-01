@@ -4,9 +4,9 @@ WordPress can be installed on various platforms. This section covers installatio
 
 ## Installation Methods
 
-- [Installing on cPanel](/knowledge-base/wordpress/installation/cpanel) - Using cPanel's one-click installer
-- [Installing on Docker](/knowledge-base/wordpress/installation/docker) - Containerized WordPress installation
-- [Installing on Coolify](/knowledge-base/wordpress/installation/coolify) - Deploying with Coolify
+- [Installing on cPanel](/kb/wordpress/installation/cpanel) - Using cPanel's one-click installer
+- [Installing on Docker](/kb/wordpress/installation/docker) - Containerized WordPress installation
+- [Installing on Coolify](/kb/wordpress/installation/coolify) - Deploying with Coolify
 
 ## Prerequisites
 

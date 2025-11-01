@@ -17,11 +17,11 @@ Google Workspace provides organizations with a suite of integrated applications 
 
 ## Available Services
 
-- [Gmail](/knowledge-base/google-workspace/gmail) - Professional email solution
-- [Google Admin](/knowledge-base/google-workspace/google-admin) - Administrative controls and management
-- [Google Drive, Docs, Sheets and Slides](/knowledge-base/google-workspace/google-drive-docs-sheets-slides) - File storage and productivity suite
-- [Google Meet](/knowledge-base/google-workspace/google-meet) - Video conferencing and meetings
-- [Google Keep](/knowledge-base/google-workspace/google-keep) - Note-taking and organization
+- [Gmail](/kb/google-workspace/gmail) - Professional email solution
+- [Google Admin](/kb/google-workspace/google-admin) - Administrative controls and management
+- [Google Drive, Docs, Sheets and Slides](/kb/google-workspace/google-drive-docs-sheets-slides) - File storage and productivity suite
+- [Google Meet](/kb/google-workspace/google-meet) - Video conferencing and meetings
+- [Google Keep](/kb/google-workspace/google-keep) - Note-taking and organization
 
 ## Getting Started
 

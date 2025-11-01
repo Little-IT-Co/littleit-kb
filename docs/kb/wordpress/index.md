@@ -27,9 +27,9 @@ WordPress is an open-source CMS that makes it easy to create and manage websites
 
 ## Documentation Sections
 
-- [Plugins](/knowledge-base/wordpress/plugins/) - Essential plugins and configurations
-- [Best Practices for Security](/knowledge-base/wordpress/security-best-practices) - Security guidelines and recommendations
-- [Installation Guides](/knowledge-base/wordpress/installation/) - Installing WordPress on different platforms
+- [Plugins](/kb/wordpress/plugins/) - Essential plugins and configurations
+- [Best Practices for Security](/kb/wordpress/security-best-practices) - Security guidelines and recommendations
+- [Installation Guides](/kb/wordpress/installation/) - Installing WordPress on different platforms
 
 ## Getting Started
 

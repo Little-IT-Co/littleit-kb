@@ -19,8 +19,8 @@ Exchange Online powers Outlook email, providing secure, reliable email delivery 
 
 ## Available Guides
 
-- [The Web App vs The Client](/knowledge-base/microsoft-365/outlook-exchange/web-app-vs-client) - Understanding different access methods
-- [Mailboxes](/knowledge-base/microsoft-365/outlook-exchange/mailboxes) - Managing mailboxes and storage
+- [The Web App vs The Client](/kb/microsoft-365/outlook-exchange/web-app-vs-client) - Understanding different access methods
+- [Mailboxes](/kb/microsoft-365/outlook-exchange/mailboxes) - Managing mailboxes and storage
 
 ## Accessing Outlook
 
