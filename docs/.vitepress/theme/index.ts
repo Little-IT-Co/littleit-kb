@@ -6,6 +6,9 @@ import CustomNavTitle from './components/CustomNavTitle.vue'
 
 export default {
   ...Theme,
+  enhanceApp({ app }) {
+    // Register global components here if needed
+  },
   Layout() {
     return h(Theme.Layout, null, {
       'nav-bar-title': () => h(CustomNavTitle),

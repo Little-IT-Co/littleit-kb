@@ -8,6 +8,37 @@ export default defineConfig({
   // Build output directory
   outDir: '../dist',
   
+  // Markdown configuration
+  markdown: {
+    config: (md) => {
+      // Configure code block language aliases - modify tokens before rendering
+      md.core.ruler.before('normalize', 'dockerfile-alias', (state) => {
+        const tokens = state.tokens
+        for (let i = 0; i < tokens.length; i++) {
+          const token = tokens[i]
+          if (token.type === 'fence' && token.info) {
+            const info = token.info.trim().toLowerCase()
+            if (info === 'dockerfile') {
+              token.info = 'docker'
+            }
+          }
+          // Also check nested tokens
+          if (token.children) {
+            for (let j = 0; j < token.children.length; j++) {
+              const child = token.children[j]
+              if (child.type === 'fence' && child.info) {
+                const info = child.info.trim().toLowerCase()
+                if (info === 'dockerfile') {
+                  child.info = 'docker'
+                }
+              }
+            }
+          }
+        }
+      })
+    }
+  },
+  
   // Theme configuration
   themeConfig: {
     siteTitle: 'Little Cloud Docs',
