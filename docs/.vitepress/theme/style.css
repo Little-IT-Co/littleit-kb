@@ -176,6 +176,7 @@ a:hover {
 
 .VPNavBar {
   background-color: #000000 !important;
+  border-bottom: 1px solid var(--vp-c-border);
 }
 
 .VPNavBar .content {
@@ -302,12 +303,12 @@ a:hover {
   border-right: 1px solid var(--vp-c-border);
   display: flex;
   flex-direction: column;
-  padding-top: var(--vp-nav-height);
+  padding-top: calc(var(--vp-nav-height) + 2rem) !important; /* Account for navbar height + extra spacing */
 }
 
 @media (max-width: 768px) {
   .VPSidebar {
-    padding-top: var(--vp-nav-height-mobile);
+    padding-top: calc(var(--vp-nav-height-mobile) + 1.5rem) !important; /* Account for navbar height + extra spacing */
   }
 }
 
@@ -360,15 +361,27 @@ a:hover {
 
 /* VitePress default: title is a button containing h2 and toggle button */
 .VPSidebarGroup .title > h2 {
-  margin: 0;
-  padding: 0;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
+  font-size: 0.6875rem !important; /* Match sidebar title font size */
+  font-weight: 600 !important;
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  letter-spacing: 0.05em !important;
+  line-height: 1.3 !important;
   display: inline-flex;
   align-items: center;
   flex: 1;
+}
+
+/* Remove margin from .text class inside title */
+.VPSidebarGroup .title .text,
+.VPSidebarGroup .title h2.text {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin: 0 !important;
 }
 
 /* Remove toggle button (chevron) completely - sections already work on click */
@@ -560,6 +573,65 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+/* Breadcrumbs */
+.VPBreadcrumbs {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+.VPBreadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.VPBreadcrumbs li {
+  display: flex;
+  align-items: center;
+}
+
+.VPBreadcrumbs li:not(:last-child)::after {
+  content: '/';
+  margin: 0 0.5rem;
+  color: var(--vp-c-text-3);
+  opacity: 0.6;
+}
+
+.VPBreadcrumbs a {
+  color: var(--vp-c-text-2);
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.VPBreadcrumbs a:hover {
+  color: var(--vp-c-brand);
+}
+
+.VPBreadcrumbs .is-active {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+}
+
+/* Hide edit links completely */
+.VPEditLink,
+.VPEditLinkButton,
+.vp-edit-link,
+a[href*="github.com"][href*="edit"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .vp-doc p {

@@ -60,6 +60,7 @@ export default defineConfig({
       '/': [
         {
           text: 'Introduction',
+          collapsed: false,
           items: [
             { text: 'Getting Started', link: '/getting-started/' },
             { text: 'Knowledge Base', link: '/kb/' },
@@ -69,6 +70,7 @@ export default defineConfig({
       '/getting-started/': [
         {
           text: 'Getting Started',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/getting-started/' },
           ]
@@ -77,6 +79,7 @@ export default defineConfig({
       '/kb/': [
         {
           text: 'Knowledge Base',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/kb/' },
           ]
@@ -164,6 +167,7 @@ export default defineConfig({
       '/kb/google-workspace/': [
         {
           text: 'Google Workspace',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/kb/google-workspace/' },
             { text: 'Gmail', link: '/kb/google-workspace/gmail' },
@@ -177,6 +181,7 @@ export default defineConfig({
       '/kb/microsoft-365/': [
         {
           text: 'Microsoft 365',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/kb/microsoft-365/' },
             { text: 'Adding Users', link: '/kb/microsoft-365/adding-users' },
@@ -193,6 +198,7 @@ export default defineConfig({
       '/kb/microsoft-365/outlook-exchange/': [
         {
           text: 'Outlook & Exchange',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/kb/microsoft-365/outlook-exchange/' },
             { text: 'The Web App vs The Client', link: '/kb/microsoft-365/outlook-exchange/web-app-vs-client' },
@@ -203,6 +209,7 @@ export default defineConfig({
       '/kb/wordpress/': [
         {
           text: 'WordPress',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/kb/wordpress/' },
             { text: 'Plugins', link: '/kb/wordpress/plugins/' },
@@ -221,6 +228,7 @@ export default defineConfig({
       '/kb/wordpress/plugins/': [
         {
           text: 'WordPress Plugins',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/kb/wordpress/plugins/' },
             { text: 'Google Site Kit', link: '/kb/wordpress/plugins/google-site-kit' },
@@ -233,6 +241,7 @@ export default defineConfig({
       '/kb/wordpress/installation/': [
         {
           text: 'WordPress Installation',
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/kb/wordpress/installation/' },
             { text: 'Installing on cPanel', link: '/kb/wordpress/installation/cpanel' },
@@ -247,12 +256,6 @@ export default defineConfig({
     footer: {
       message: 'Made with ❤️ by Little Cloud',
       copyright: 'Copyright © 2025 Little Cloud OÜ'
-    },
-    
-    // Edit link (optional)
-    editLink: {
-      pattern: 'https://github.com/littlewebco/littlecloud-docs/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
     },
   }
 })
