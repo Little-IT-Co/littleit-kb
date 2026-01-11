@@ -1,6 +1,6 @@
 /**
  * Custom VitePress Theme Styles
- * Matching Little Cloud Design System
+ * Matching Little IT Co Design System
  * Based on https://littlecloud-web.web.app/
  */
 
@@ -18,7 +18,7 @@
 }
 
 :root {
-  /* Little Cloud Brand Colors - Matching website gradients */
+  /* Little IT Co Brand Colors - Matching website gradients */
   --vp-c-brand: hsl(197, 100%, 50%); /* Primary blue from website */
   --vp-c-brand-light: hsl(187, 100%, 56%); /* Cyan accent */
   --vp-c-brand-lighter: hsl(275, 52%, 73%); /* Purple accent */

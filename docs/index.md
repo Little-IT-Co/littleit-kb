@@ -1,17 +1,17 @@
-# Little Cloud Documentation
+# Little IT Co Documentation
 
-Welcome to the **Little Cloud** documentation!
+Welcome to the **Little IT Co** documentation!
 
-## Simple. Reliable. Secure.
+## Big Expertise, Little Company Care
 
-Little Cloud provides cloud solutions including domain registration, web hosting, managed cloud services, and 24/7 support.
+At Little IT Co, we combine big-firm expertise with small-business attention. We deliver straightforward IT solutions that work seamlessly in the background, making technology easy so you can focus on what matters most—your business.
 
 ## Quick Links
 
 - [Knowledge Base](/kb/) - Comprehensive guides and documentation for all services
-- [Getting Started](/getting-started/) - Begin your journey with Little Cloud
-- [Services](https://little.cloud/services) - Explore our services
-- [Contact](https://little.cloud/contact) - Get in touch with our team
+- [Getting Started](/getting-started/) - Begin your journey with Little IT Co
+- [Services](https://littleitco.com.au/services) - Explore our services
+- [Contact](https://littleitco.com.au/contact) - Get in touch with our team
 
 ## Knowledge Base
 
@@ -27,18 +27,22 @@ Find detailed guides and documentation for:
 
 ## What We Offer
 
-### Domain Registration
-Secure your perfect domain name with our simple registration process. Get started in minutes with competitive pricing.
+### IT That Just Works
 
-### Reliable Hosting
-3 simple hosting plans ensure your space grows with you. 99.9% uptime SLA with SSD storage and free SSL.
+We manage your systems, secure your data, and support your team seamlessly across all the platforms you use every day.
 
-### Cloud Infrastructure
-Scalable infrastructure that grows with your business. From startups to enterprise, we've got you covered.
+### Scalable Solutions
 
-### Advanced Security
-Protect your data and applications with comprehensive security solutions. Enterprise-grade protection for all sizes.
+Technology that grows with your business. From startups to growing enterprises, we provide the foundation to build your success.
+
+### Real Human Support
+
+Responsive technical support when you need it, keeping your business running. We're here when you need us.
+
+### Cybersecurity
+
+Comprehensive security measures to protect your business from digital threats. Advanced protection for your valuable data.
 
 ---
 
-*Need help? Contact our [24/7 support team](https://little.cloud/contact) or browse our [Knowledge Base](/kb/)*
+*From little things, big things grow. Need help? Contact our [support team](https://littleitco.com.au/contact) or email us at [support@littleitco.com.au](mailto:support@littleitco.com.au)*

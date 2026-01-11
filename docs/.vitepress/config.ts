@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/docs/',
-  title: 'Little Cloud Documentation',
-  description: 'Simple, reliable and secure cloud solutions. Documentation for Little Cloud services and products.',
+  title: 'Little IT Co Documentation',
+  description: 'Simple, reliable and secure cloud solutions. Documentation for Little IT Co services and products.',
   
   // Enable clean URLs (removes .html extensions)
   cleanUrls: 'with-subfolders',
@@ -44,7 +44,7 @@ export default defineConfig({
   
   // Theme configuration
   themeConfig: {
-    siteTitle: 'Little Cloud Docs',
+    siteTitle: 'Little IT Co Docs',
     logo: 'https://little.cloud/assets/img/logo.svg', // Add your logo if you have one
     
     // Search configuration - enable local search
@@ -254,8 +254,8 @@ export default defineConfig({
     
     // Footer
     footer: {
-      message: 'Made with ❤️ by Little Cloud',
-      copyright: 'Copyright © 2025 Little Cloud OÜ'
+      message: 'Made with ❤️ by Little IT Co',
+      copyright: 'Copyright © 2025 Little IT Co OÜ'
     },
   }
 })

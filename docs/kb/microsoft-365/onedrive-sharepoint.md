@@ -151,5 +151,5 @@ For assistance with OneDrive, SharePoint, or file sharing, contact our support t
 
 ---
 
-*Need help? Contact our [24/7 support team](https://little.cloud/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/contact)*
 

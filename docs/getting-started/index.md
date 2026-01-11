@@ -1,50 +1,54 @@
 # Getting Started
 
-Welcome to **Little Cloud**! This guide will help you get started with our services.
+Welcome to **Little IT Co**! This guide will help you get started with our services.
 
 ## Overview
 
-Little Cloud offers simple, reliable, and secure cloud solutions for your next big thing. Whether you're looking to register a domain, host a website, or scale your infrastructure, we've got you covered.
+At Little IT Co, we understand that every successful business begins with a single step. We partner with businesses at all stages—from startups to growing enterprises—providing the technology foundation to build your success.
 
-## What You Can Do
+## Our Services
 
-### Domain Registration
-- Register your perfect domain name
-- Manage DNS settings easily
-- Set up auto-renewal
-- Transfer domains seamlessly
+### IT Support
 
-### Web Hosting
-Choose from our three hosting plans:
-- **Starter** - Perfect for personal sites ($5.99/month)
-- **Plus** - Most popular plan ($9.99/month)
-- **Pro** - For power users ($19.99/month)
+Responsive technical support when you need it. We manage your systems and keep your business running smoothly.
 
-All plans include:
-- 99.9% uptime SLA
-- SSD storage
-- Free SSL certificates
-- Unlimited bandwidth
+### Cloud Services
 
-### Managed Cloud Services
-Starting from $49/month, our managed cloud includes:
-- Domain administration
-- Technical support
-- Systems design
-- Site maintenance
-- Accessibility compliance
-- Integrations
+Modern cloud solutions for flexibility and performance. We handle migration, hosting, and management so you can focus on your business.
+
+### Cybersecurity
+
+Comprehensive security measures to protect your business from digital threats. We safeguard your valuable data with advanced protection.
+
+### Network Solutions
+
+Reliable network infrastructure design and management for seamless connectivity across your organisation.
+
+### Data Management
+
+Secure backup, recovery, and storage solutions for your critical business data.
+
+### Custom Solutions
+
+Tailored IT solutions designed specifically for your unique business needs.
+
+## Why Choose Little IT Co?
+
+- **Big-firm expertise, small-business care** - Personal attention and support tailored to you
+- **Scalable solutions** - Technology that grows with your business
+- **Responsive support** - Real human support when you need it
+- **Cost-effective services** - Solutions that work within your budget
 
 ## Next Steps
 
-1. **Explore our services** - Check out what we offer
-2. **Choose a plan** - Select the perfect solution for your needs
-3. **Get started** - Sign up and start building
+1. **Explore our services** - Learn about what we offer
+2. **Get in touch** - Tell us about your business needs
+3. **Get started** - We'll build a solution that works for you
 
 ## Need Help?
 
-Our 24/7 support team is here to help whenever you need it. Contact us at [support@little.cloud](mailto:support@little.cloud) or visit our [contact page](https://little.cloud/contact).
+Our support team is here to help whenever you need it. Contact us at [support@littleitco.com.au](mailto:support@littleitco.com.au) or visit our [contact page](https://littleitco.com.au/contact).
 
 ---
 
-*Ready to get started? [Visit our website](https://little.cloud) to begin your journey.*
+*From little things, big things grow. [Visit our website](https://littleitco.com.au) to learn more.*

@@ -98,5 +98,5 @@ For assistance with Google Drive, Docs, Sheets, or Slides, contact our support t
 
 ---
 
-*Need help? Contact our [24/7 support team](https://little.cloud/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/contact)*
 

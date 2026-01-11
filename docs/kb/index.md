@@ -1,6 +1,6 @@
 # Knowledge Base
 
-Welcome to the **Little Cloud Knowledge Base**! Here you'll find comprehensive guides and documentation for our supported services.
+Welcome to the **Little IT Co Knowledge Base**! Here you'll find comprehensive guides and documentation for our supported services.
 
 ## Available Services
 
@@ -52,13 +52,12 @@ Documentation for additional services and tools we support.
 
 ## Getting Help
 
-Our documentation is designed to help you get the most out of your cloud services. If you need additional assistance:
+Our documentation is designed to help you get the most out of your IT services. If you need additional assistance:
 
-- **Contact Support** - Reach out to our [24/7 support team](https://little.cloud/contact)
+- **Contact Support** - Reach out to our [support team](https://littleitco.com.au/contact) or email [support@littleitco.com.au](mailto:support@littleitco.com.au)
 - **Search** - Use the search function to find specific topics
 - **Browse by Category** - Explore services by category in the sidebar
 
 ---
 
-*Need help? Contact our [24/7 support team](https://little.cloud/contact)*
-
+*Need help? Contact our [support team](https://littleitco.com.au/contact)*
