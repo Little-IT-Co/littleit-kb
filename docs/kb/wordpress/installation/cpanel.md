@@ -193,5 +193,5 @@ For assistance with WordPress installation on cPanel, contact our support team.
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

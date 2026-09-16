@@ -11,7 +11,7 @@ At Little IT Co, we combine big-firm expertise with small-business attention. We
 - [Knowledge Base](/kb/) - Comprehensive guides and documentation for all services
 - [Getting Started](/getting-started/) - Begin your journey with Little IT Co
 - [Services](https://littleitco.com.au/services) - Explore our services
-- [Contact](https://littleitco.com.au/contact) - Get in touch with our team
+- [Contact](https://littleitco.com.au/#contact) - Get in touch with our team
 
 ## Knowledge Base
 
@@ -45,4 +45,4 @@ Comprehensive security measures to protect your business from digital threats. A
 
 ---
 
-*From little things, big things grow. Need help? Contact our [support team](https://littleitco.com.au/contact) or email us at [support@littleitco.com.au](mailto:support@littleitco.com.au)*
+*From little things, big things grow. Need help? Contact our [support team](https://littleitco.com.au/#contact) or email us at [info@littleitco.com.au](mailto:info@littleitco.com.au)*

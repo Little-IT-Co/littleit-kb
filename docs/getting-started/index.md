@@ -47,7 +47,7 @@ Tailored IT solutions designed specifically for your unique business needs.
 
 ## Need Help?
 
-Our support team is here to help whenever you need it. Contact us at [support@littleitco.com.au](mailto:support@littleitco.com.au) or visit our [contact page](https://littleitco.com.au/contact).
+Our support team is here to help whenever you need it. Contact us at [info@littleitco.com.au](mailto:info@littleitco.com.au) or visit our [contact page](https://littleitco.com.au/#contact).
 
 ---
 

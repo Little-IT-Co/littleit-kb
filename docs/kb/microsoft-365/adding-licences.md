@@ -150,5 +150,5 @@ For assistance with license management, purchasing licenses, or license troubles
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

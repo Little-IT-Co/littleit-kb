@@ -183,5 +183,5 @@ For assistance with Cloudmin configuration, VM management, or troubleshooting, c
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

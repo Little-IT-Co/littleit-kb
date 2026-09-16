@@ -52,5 +52,5 @@ For assistance with WordPress plugins, contact our support team.
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

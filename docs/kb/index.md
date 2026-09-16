@@ -54,10 +54,10 @@ Documentation for additional services and tools we support.
 
 Our documentation is designed to help you get the most out of your IT services. If you need additional assistance:
 
-- **Contact Support** - Reach out to our [support team](https://littleitco.com.au/contact) or email [support@littleitco.com.au](mailto:support@littleitco.com.au)
+- **Contact Support** - Reach out to our [support team](https://littleitco.com.au/#contact) or email [info@littleitco.com.au](mailto:info@littleitco.com.au)
 - **Search** - Use the search function to find specific topics
 - **Browse by Category** - Explore services by category in the sidebar
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*

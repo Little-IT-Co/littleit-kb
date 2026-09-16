@@ -85,5 +85,5 @@ For assistance with WordPress installation on any platform, contact our support 
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

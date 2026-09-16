@@ -160,5 +160,5 @@ For assistance with Microsoft Entra configuration, security policies, or trouble
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

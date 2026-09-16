@@ -257,5 +257,5 @@ For assistance with GitHub setup, repository management, or troubleshooting, con
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

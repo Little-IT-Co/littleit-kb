@@ -114,5 +114,5 @@ For assistance with mailbox management, configuration, or troubleshooting, conta
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

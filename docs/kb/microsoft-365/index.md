@@ -31,5 +31,5 @@ To get started with Microsoft 365, contact our support team to set up your tenan
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

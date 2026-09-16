@@ -274,5 +274,5 @@ For assistance with WordPress installation on Coolify or troubleshooting, contac
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

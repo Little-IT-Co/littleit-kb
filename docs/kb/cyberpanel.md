@@ -214,5 +214,5 @@ For assistance with CyberPanel setup, configuration, or troubleshooting, contact
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

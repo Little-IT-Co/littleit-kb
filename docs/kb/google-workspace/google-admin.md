@@ -60,5 +60,5 @@ For assistance with Google Admin Console or advanced configuration, contact our 
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 
