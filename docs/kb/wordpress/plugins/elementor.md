@@ -168,5 +168,5 @@ For assistance with Elementor setup, design, or troubleshooting, contact our sup
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

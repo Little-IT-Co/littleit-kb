@@ -240,5 +240,5 @@ For assistance with Docker setup, container management, or troubleshooting, cont
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

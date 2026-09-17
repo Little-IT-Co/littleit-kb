@@ -49,5 +49,5 @@ For assistance with Gmail configuration or troubleshooting, contact our support 
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

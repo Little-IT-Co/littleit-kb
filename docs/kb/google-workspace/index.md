@@ -29,5 +29,5 @@ To get started with Google Workspace, contact our support team to set up your ac
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

@@ -233,5 +233,5 @@ For assistance with WordPress security configuration or security issues, contact
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

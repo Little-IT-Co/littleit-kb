@@ -126,5 +126,5 @@ For assistance with Google Site Kit setup or configuration, contact our support 
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 

@@ -94,5 +94,5 @@ For assistance choosing the right Outlook access method or configuring clients, 
 
 ---
 
-*Need help? Contact our [support team](https://littleitco.com.au/contact)*
+*Need help? Contact our [support team](https://littleitco.com.au/#contact)*
 
